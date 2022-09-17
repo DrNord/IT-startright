@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8">
+  <link rel="icon" type="image/png" href="img/favicon.png">
+  <link rel="stylesheet" href="css/main.css">
+  <title>IT-startright: домашнее задание</title>
+</head>
+<body>
+<div id="main-content">
+  <h1>
+    <div>IT-разработчик:</div>
+    <div>начинай правильно!</div>
+    <div>Часть I</div>
+  </h1>
+  <h2>Домашнее задание к <a href="https://github.com/DrNord/IT-startright/blob/main/README-RU.md" target="_blank" title="IT: start right">уроку</a></h2>
+  <h3>Смотрите урок <a href="https://youtu.be/rM7al2ZmHxQ" target="_blank" title="IT: start right">на Ютубе</a></h3>
+  <p>&rarr; <a href="index.html">in english</a></p>
+  <br/>
+  <ol>
+    <li>Скачайте открытый ключ:
+      <a href="hometask/public-key-SM.asc" target="_blank" title="Public key">public-key-SM.asc</a>
+    </li>
+    <li>
+      <div>Добавьте открытый ключ к вашей связке:</div>
+      <div><code>gpg --import public-key-SM.asc</code></div>
+    </li>
+    <li>
+      <div> (по желанию) Подпишите открытый ключ:</div>
+      <div><code>gpg --sign-key "Spider Mastermind"</code></div>
+      <div><small>Вы ведь доверяете ему, разве нет? =)</small></div>
+    </li>
+    <li>Скачайте секретное сообщение:
+      <div><a href="hometask/secret-message.asc" target="_blank" title="Secret message">secret-message.asc</a></div>
+    </li>
+    <li>
+      <div>Расшифруйте сообщение:</div>
+      <div><code>gpg --decrypt secret-message.asc</code></div>
+    </li>
+    <li>???????</li>
+    <li>Profit. Вы получите доступ к эксклюзивному <b>секретному видео</b>!</li>
+  </ol>
+  <p><sub>&copy; Д-р Норд, 2022</sub></p>
+</div>
+</body>
+</html>
+

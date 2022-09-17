@@ -1,0 +1,22 @@
+----- BEGIN (UTF-8): English version -----
+
+Copyright (c) 2022 Dr. Nord
+
+The object of copyright hereinafter is named as the "Object".
+Dr. Nord's exclusive copyright.
+Permission is hereby granted to use the Object for personal non-commercial purposes.
+The Object is provided "as is", the copyright owner makes no warranties about the Object, and disclaims liability for all uses of the Object.
+
+----- END: English version -----
+
+
+----- BEGIN (UTF-8): Версия на русском -----
+
+© Д-р Норд, 2022
+
+Объект авторского права здесь и далее именуется как "Объект".
+Исключительное право на Объект принадлежит Доктору Норду.
+Разрешается использовать Объект в личных некоммерческих целях.
+Объект предоставляется "как есть", правообладатель не даёт никаких гарантий относительно Объекта и не несет ответственности за все виды использования Объекта.
+
+----- END: Версия на русском -----
