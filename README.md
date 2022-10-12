@@ -1,19 +1,7 @@
 # IT-developer: start right
-:notebook: **A conspectus and a task with a secret**   
-:superhero: *--- 7 pro's steps ---*
+:notebook: **A conspectus in 2 parts, a task with a secret and an exercise for independent work**   
 
 :arrow_right: на русском [README-RU.md]
-
-## Part I
-
-:electron: ***Turn your "I don't understand" into "I see what's what."***  
-:computer: ***Master the basic tools of an IT-developer.***  
-:godmode: ***Equip properly before the intricate road to the world of information technologies.***
-
-**Watch** the [video-lesson][lesson-p1].
-
-:point_right: **Installation** of basic applications, **setting up** the information environment for IT-development.  
-:point_right: **Technologies used:** systematization of accounts, symmetric and asymmetric encryption, version control, digital signatures, destruction of information.  
 
 © 2022 Dr. Nord 
 
@@ -21,12 +9,33 @@
 
 The exclusive copyright owner of this repository content is Dr. Nord, you are allowed to use it for personal non-commercial purposes, see [LICENSE-DN.txt] for details.
 
+## Part I :superhero: - 7 pro's steps 
+:electron: ***Turn your "I don't understand" into "I see what's what."***  
+:computer: ***Master the basic tools of an IT-developer.***  
+:godmode: ***Equip properly before the intricate road to the world of information technologies.***
+
+**Watch** the [video-lesson part 1][lesson-p1].
+
+:point_right: **Installation** of basic applications, **setting up** the information environment for IT-development.  
+:point_right: **Technologies used:** systematization of accounts, symmetric and asymmetric encryption, version control, digital signatures, destruction of information.  
+
+## Part II :deciduous_tree: - your ecosystem  
+:seedling: ***Learn to form your ecosystem for IT-development.***  
+:earth_africa: ***Start your way into the world of information technologies in full readiness.***
+
+**Watch** the [video-lesson part 2][lesson-p2].
+
+:point_right: **Installation** and **setting up** the integrated development environment and extensions.  
+:point_right: **Technologies used:** syntax highlight and extended code editing possibilities, spell check, static code analysis, debugging, live server.
+
 ## Table of contents
 
 <details>
   <summary></summary>
 
-  - [Prerequisites](#prerequisites)
+  [Prerequisites](#prerequisites)
+  
+  [Part I :superhero: - 7 pro's steps](#part1)
   - [1. Web browser and reference documentation](#browser)
   - [2. Password manager](#keepass)
   - [3. Data erase](#eraser)
@@ -35,7 +44,20 @@ The exclusive copyright owner of this repository content is Dr. Nord, you are al
   - [6. Online repositories](#online-repos)
   - [7. Version control](#git)
   - [Home task](#hometask)
-  - [Author and contacts](#author-contacts)
+  
+  [Part II :deciduous_tree: - your ecosystem](#part2)
+  - [Installation of an integrated development system](#ide)
+  - [Syntax highlight](#syntax-highlight)
+  - [Smart completion](#intelli-sense)
+  - [Extensions](#extensions)
+  - [Static code analysis](#static-analysis)
+  - [Debugging (dynamic code analysis)](#debug)
+  - [Built-in terminal](#terminal)
+  - [Built-in version control system](#version-control)
+  - [Live server](#live-server)
+  - [Exercise for independent work](#exercise)
+    
+  [Author and contacts](#author-contacts)
 </details>
 
 ## <a name=prerequisites /> Prerequisites
@@ -231,6 +253,31 @@ The hometask is here: [hometask].
 ***Don't miss the epic fight of overminds!***  
 [![Banner][banner]][hometask]
 
+## <a name=part2 /> Part II :deciduous_tree: - your ecosystem
+
+# UNDER CONSTRUCTION, COME BACK SOON!
+
+### <a name=ide /> Installation of an integrated development system
+
+### <a name=syntax-highlight /> Syntax highlight
+
+### <a name=intelli-sense /> Smart completion
+
+### <a name=extensions /> Extensions
+
+### <a name=static-analysis /> Static code analysis
+
+### <a name=debug /> Debugging (dynamic code analysis)
+
+### <a name=terminal /> Built-in terminal
+
+### <a name=version-control /> Built-in version control system
+
+### <a name=live-server /> Live server
+
+### <a name=exercise /> Exercise for independent work
+
+
 ## <a name=author-contacts /> Author and contacts
 
 ***Alexander Nord***, aka ***"Dr. Nord"*** - Doctor of Engineering Sciences, Professor:
@@ -246,6 +293,7 @@ The hometask is here: [hometask].
 [README.md]: README.md
 [README-RU.md]: README-RU.md
 [lesson-p1]: https://youtu.be/rM7al2ZmHxQ
+[lesson-p2]: https://youtube.com
 
 [LICENSE-DN.txt]: LICENSE-DN.txt
 [cefr]: https://tracktest.eu/english-levels-cefr/
@@ -262,5 +310,10 @@ The hometask is here: [hometask].
 [BitBucket]: https://bitbucket.org/
 [git]: https://git-scm.com/
 
-[hometask]: https://drnord.github.io/IT-startright/index.html
+[hometask]: https://drnord.github.io/IT-startright/index-ru.html
 [banner]: ./img/spider-mastermind.png
+
+[VS-code]: https://code.visualstudio.com/
+[firefox-inst]: https://www.mozilla.org/en-US/firefox/all/#product-desktop-release/
+[firefox-external-control]: https://github.com/firefox-devtools/vscode-firefox-debug/
+[gpg-key]: https://github.com/spider-mastermind-dis/gpg-key/
