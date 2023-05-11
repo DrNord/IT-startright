@@ -255,28 +255,93 @@ The hometask is here: [hometask].
 
 ## <a name=part2 /> Part II :deciduous_tree: - your ecosystem
 
-# UNDER CONSTRUCTION, COME BACK SOON!
-
 ### <a name=ide /> Installation of an integrated development system
+An integrated development environment (IDE) is a set of software tools used by programmers to develop software.
+The main components of an IDE are a code editor (a text editor with special features that increase the efficiency of programming), a translator (compiler or interpreter), build automation tools, a debugger, and other tools.
+Modern IDEs have features such as multiple cursors, code sections folding, column highlighting, autosave, find and replace, refactoring, and more.
+Consider the main features of the IDE.
+One of the open, functional and extensible IDEs is the [Visual Studio Code][VS-code] by Microsoft (hereinafter referred to as VS-code). Download and install this application.
+To explore the capabilities of the IDE, you can sketch the code yourself, open any completed project if you have one, or clone the repository from the first part of the lesson:
+```
+git clone https://github.com/DrNord/web-frontend-barehanded/
+```
 
 ### <a name=syntax-highlight /> Syntax highlight
+The most noticeable feature of an IDE is syntax highlighting, which greatly improves the readability of the code.
+VS-code independently recognizes the language used in the code.
+In VS-code, you can select and download a color theme to your taste in the corresponding section of the settings ```File -> Preferences -> Color Theme``` or using the keyboard shortcut:
+```
+Ctrl + K, Ctrl + T
+```
+Also, for your convenience, you can activate the minimap and wrap long lines in the ```View``` menu.
 
 ### <a name=intelli-sense /> Smart completion
+As you write code, the IDE provides you with tooltips to complete certain words to improve your productivity.
+For HTML page layout, you can enable the options for automatic tag closing and combined tag editing:
+```
+html.autoClosingTags": true
+editor.linkedEditing": true
+```
 
 ### <a name=extensions /> Extensions
+Using extensions allows you to significantly enhance the capabilities of your development environment. VS-code contains a built-in mechanism for finding and installing extensions.
+Install the spell checker extension ```Code Spell Checker```, as well as additional languages in the form of dictionaries, such as ```Russian - Code Spell Checker```.
+Activate the dictionary through the command panel (opened by pressing the ```F1``` key), to do this, enter the command:
+```Enable Russian Spell Checker Dictionary```.
+Install the "Todo Tree" extension ```TODO Tree```. You can put special labels in the comments and write down what remains to be finalized, and through the task tree you can quickly jump to any such label.
 
 ### <a name=static-analysis /> Static code analysis
+The static code analyzer allows you to detect syntactic and stylistic errors in the process of writing programs, without starting their execution.
+VS-code has a built-in code analyzer for JavaScript and CSS.
+To perform static analysis of HTML markup, you can use the ```HTMLHint``` extension.
 
 ### <a name=debug /> Debugging (dynamic code analysis)
+The debugging process is designed to find logical errors in your code. In other words, the program can run, but not always do what was intended. You can make the program work as it should through step-by-step execution of instructions, studying the processes occurring in it, detecting and eliminating errors made when code was written.
+VS-code contains a built-in debugger for "Node.js" and can debug anything translatable to JavaScript.
+Since web applications run in a browser, the IDE must be provided with a specialized tool for debugging a program running in a browser.
+VS-code contains a debugger capable of working with Edge and Chrome browsers.
+We will use the Firefox debugging extension: ```Debugger for Firefox```.
+If you don't have Firefox installed, install it: [firefox-inst][].
+After installation, it must be configured for external control, according to [instructions][firefox-external-control]:
+- open Firefox;
+- type in the address bar ```about:config```;
+- set the following parameters:
+```
+devtools.debubber.remote-enabled: true [Required]
+devtools.chrome.enabled: true [Required]
+devtools.debubber.workers: true [Required if you want to debug workers]
+devtools.debubber.prompt-connection: false [Recommended]
+devtools.debugger.force-local: false [Set this only if you want to attach VS Code to Firefox running on a different machine (using the "host" property in the "attach" configuration)
+```
+On the "debugger" tab, select "Generate config file", select Firefox from the drop-down menu, and the contents of the config file will be filled in automatically. These configurations can be edited if necessary.
+For this step, we will use the ```Launch index.html``` configuration:
+- set breakpoints "breakpoints";
+- add observed objects;
+- start debugging.
+The browser will open in external control mode.
+
+Executing the program step by step, you can track all the actions that occur in it.
+If you refresh the page, the process will repeat.
 
 ### <a name=terminal /> Built-in terminal
+The next useful component of the integrated development environment is the built-in terminal. In VS-code, you can open different terminals for your tasks and use them on a par with external terminals.
 
 ### <a name=version-control /> Built-in version control system
+An important part of a modern integrated development environment is support for a version control system.
+Git repositories store all the information they need in a hidden ".git" folder in your project directory. VS-code recognizes this information and provides Git tools for versioning your project. For example, you can compare changes between commits and the current state of files, create commits, and perform other necessary operations.
 
 ### <a name=live-server /> Live server
+In the process of creating web applications, the results of the work are displayed in the browser. When making changes to the code, the developer is forced to refresh the page every time. You can automate this process with the ```Live Server``` extension from ```Ritwick Dey```. It is designed to reload your web page every time you save changes to your code, which also improves development efficiency.
+For more convenient usage, activate the autosave function ```File -> Auto Save```.
 
 ### <a name=exercise /> Exercise for independent work
+- Log in to your GitHub account.
+- Make a repository branch from the first part of the lesson: [gpg-key][gpg-key].
+- Clone the repository on your computer.
+- Make arbitrary changes to the web page.
+- Publish the result on your GitHub account.
 
+When performing the exercise, use the tools you have learned.
 
 ## <a name=author-contacts /> Author and contacts
 
@@ -287,13 +352,14 @@ The hometask is here: [hometask].
 - preparation of training courses (general, specialized, individual).  
 *Through thorns to stars!*
 
-:e-mail: <nordexium@gmail.com> - **write** a letter or...  
-:octocat: https://drnord.github.io - **explore** other Dr. Nord's resources and **use** alternative means of **communication**.
+:e-mail: <nordexium@gmail.com> - **write** a letter, or...
+:speech_balloon: https://discord.com/invite/85zEyUhQpM - **join** our Discord community, or...  
+:octocat: https://drnord.github.io - **explore** other Dr. Nord's resources.
 
 [README.md]: README.md
 [README-RU.md]: README-RU.md
 [lesson-p1]: https://youtu.be/rM7al2ZmHxQ
-[lesson-p2]: https://youtube.com
+[lesson-p2]: https://youtu.be/i56JbDThtI8
 
 [LICENSE-DN.txt]: LICENSE-DN.txt
 [cefr]: https://tracktest.eu/english-levels-cefr/
